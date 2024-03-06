@@ -1,7 +1,9 @@
-import React from "react";
-import {Fabars} from 'react-icons/fa'
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
+  const [bar, setBar] = useState(false);
+
   const links = [
     {
       id: 1,
@@ -29,8 +31,7 @@ const Header = () => {
         </h1>
       </div>
 
-
-      <ul className="hidden md:flex ">  
+      <ul className="hidden md:flex ">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -41,9 +42,27 @@ const Header = () => {
         ))}
       </ul>
 
-      <div className="cursor-pointer"> 
-<Fabars size={30}/>
+      <div
+        onClick={() => setBar(!bar)}
+        className="cursor-pointer pr-4 z-10 text-gray-500 mt-1 md:hidden "
+      >
+        {bar ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
+
+      {/* fobar click event */}
+
+      {bar && (
+        <ul className="flex flex-col justify-center items-center absolute top-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
+          {links.map(({ id, link }) => (
+            <li
+              key={id}
+              className="px-4 cursor-pointer capitalize py-4 text-2xl"
+            >
+              {link}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };
