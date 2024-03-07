@@ -3,27 +3,32 @@ import moviesearch from "./image/moviesearch.png";
 import fooddelievery from "./image/fooddelievery.png";
 import finclvr from "./image/finclvr.png";
 import youtubeclone from "./image/youtubeclone.png";
+import portfolio from "./image/portfolio.png";
 
 const Project = () => {
   const projects = [
     {
       id: 1,
-      src: moviesearch,
+      src: portfolio,
     },
     {
       id: 2,
-      src: finclvr,
+      src: moviesearch,
     },
     {
       id: 3,
-      src: fooddelievery,
+      src: finclvr,
     },
     {
       id: 4,
-      src: digitalclock,
+      src: fooddelievery,
     },
     {
       id: 5,
+      src: digitalclock,
+    },
+    {
+      id: 6,
       src: youtubeclone,
     },
   ];
