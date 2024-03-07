@@ -24,7 +24,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="flex bg-black justify-between">
+    <div className="flex bg-black justify-between w-full h-auto fixed">
       <div>
         <h1 className="text-slate-400 hover:text-sky-400 font-bold ml-10 p-2 text-xl">
           Portfolio
@@ -35,7 +35,7 @@ const Header = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-3 mt-2 mr-3 cursor-pointer capitalize font-medium text-gray-500 hover:text-cyan-400 hover:scale-105 duration-200"
+            className="px-1 mt-2 mr-8 cursor-pointer capitalize font-medium text-gray-500 hover:text-cyan-400 hover:scale-105 duration-200"
           >
             {link}
           </li>
@@ -44,9 +44,9 @@ const Header = () => {
 
       <div
         onClick={() => setBar(!bar)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 mt-1 md:hidden "
+        className="cursor-pointer pr-4 z-10 text-gray-500 mt-3 md:hidden "
       >
-        {bar ? <FaTimes size={30} /> : <FaBars size={30} />}
+        {bar ? <FaTimes size={20} /> : <FaBars size={20} />}
       </div>
 
       {/* fobar click event */}
