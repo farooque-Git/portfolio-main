@@ -16,5 +16,6 @@ root.render(
     <Project />
     <Skills />
     <Contact />
+    <Footer/>
   </React.StrictMode>
 );

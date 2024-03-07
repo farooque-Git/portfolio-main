@@ -13,18 +13,17 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full">
           <h1 className="text-4xl sm:text-6xl font-bold text-white">
-            Hi, I'm a Full Stack Developer
+            Hi,<a className="text-yellow-500"> Farooque Ali</a> here & I'm a
+            Full Stack Developer
           </h1>
           <p className="text-gray-400 py-5">
-            1.5+ years experienced React Developer building website and web
-            application using React JS and modern JavaScript tools/framework
-            with hands-on experience in identifying web based user interaction
-            along with designing & implementing highly responsive user interface
-            component by deploying React concept. Proficient in translating
-            design & wireframe into high quality code and writing application
-            interface code via JavaScript and ReactJS overflow. Adept at
-            monitoring & maintain frontend performance and troubleshooting and
-            debugging the same to boost the overall performance
+            1.5+ years experienced React building website and web application
+            using React JS and modern JavaScript tools/framework with hands-on
+            experience in identifying web based user interaction along with
+            designing & implementing highly responsive user interface component
+            by deploying React concept. Proficient in translating design &
+            wireframe into high quality code and writing application interface
+            code via JavaScript and ReactJS overflow.
           </p>
           <div>
             <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
