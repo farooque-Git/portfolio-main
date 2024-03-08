@@ -1,10 +1,13 @@
+import { React } from "react";
 import htmlicon from "./image/htmlicon.png";
 import cssicon from "./image/cssicon.png";
 import jsicon from "./image/jsicon.webp";
 import reacticon from "./image/reacticon.png";
 import tailwindicon from "./image/tailicon.png";
 import giticon from "./image/github-icon-9.png";
-import { React } from "react";
+import redux from "./image/redux.webp";
+import mui from "./image/mui.png";
+import webpack from "./image/webpack.webp";
 
 const Skills = () => {
   const icons = [
@@ -44,12 +47,30 @@ const Skills = () => {
       title: "GitHub",
       style: "shadow-white",
     },
+    {
+      id: 7,
+      src: redux,
+      title: "Redux",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 8,
+      src: mui,
+      title: "Material UI",
+      style: "shadow-blue-400",
+    },
+    {
+      id: 9,
+      src: webpack,
+      title: "Webpack",
+      style: "shadow-blue-300",
+    },
   ];
 
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-full"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div className="">

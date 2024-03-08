@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
-
 const Header = () => {
   const [bar, setBar] = useState(false);
 
@@ -21,6 +20,10 @@ const Header = () => {
     },
     {
       id: 4,
+      link: "about",
+    },
+    {
+      id: 5,
       link: "contact",
     },
   ];

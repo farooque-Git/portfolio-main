@@ -7,6 +7,7 @@ import Home from "./components/Home.jsx";
 import Project from "./components/Project.jsx";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
+import About from "./components/About.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,7 @@ root.render(
     <Home />
     <Project />
     <Skills />
+    <About/>
     <Contact />
     <Footer/>
   </React.StrictMode>
