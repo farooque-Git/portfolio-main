@@ -21,7 +21,7 @@ const Home = () => {
             using React JS and modern JavaScript tools/framework with hands-on
             experience in identifying web based user interaction along with
             designing & implementing highly responsive user interface component
-            by deploying React concept. 
+            by deploying React concept.
           </p>
           <div>
             <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
