@@ -10,6 +10,7 @@ const Project = () => {
     {
       id: 1,
       src: portfolio,
+      deployurl: "https://portfolio-main-virid-six.vercel.app/",
     },
     {
       id: 2,
