@@ -2,7 +2,7 @@ import digitalclock from "./image/digitalclock.png";
 import moviesearch from "./image/moviesearch.png";
 import fooddelievery from "./image/fooddelievery.png";
 import finclvr from "./image/finclvr.png";
-import youtubeclone from "./image/youtubeclone.png";
+import bookstore from "./image/bookstore.png";
 import portfolio from "./image/portfolio.png";
 
 const Project = () => {
@@ -14,33 +14,33 @@ const Project = () => {
     },
     {
       id: 2,
+      src: bookstore,
+      deployurl: "https://book-store-chi-two.vercel.app/",
+      codeurl: "https://github.com/farooque-Git/book-store",
+    },
+    {
+      id: 3,
       src: moviesearch,
       deployurl: "https://farooque-git.github.io/movie-detail/",
       codeurl: "https://github.com/farooque-Git/movie-detail",
     },
     {
-      id: 3,
+      id: 4,
       src: finclvr,
       deployurl: "https://farooque-git.github.io/Finclvr/",
       codeurl: "https://github.com/farooque-Git/Finclvr",
     },
     {
-      id: 4,
+      id: 5,
       src: fooddelievery,
       deployurl: "https://farooque-git.github.io/food-delivery/",
       codeurl: "https://github.com/farooque-Git/food-delivery",
     },
     {
-      id: 5,
+      id: 6,
       src: digitalclock,
       deployurl: "https://farooque-git.github.io/digital_clock/",
       codeurl: "https://github.com/farooque-Git/digital_clock",
-    },
-    {
-      id: 6,
-      src: youtubeclone,
-      deployurl: "https://farooque-git.github.io/Youtube-clone/",
-      codeurl: "https://github.com/farooque-Git/Youtube-clone",
     },
   ];
 
