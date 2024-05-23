@@ -4,43 +4,44 @@ import fooddelievery from "./image/fooddelievery.png";
 import finclvr from "./image/finclvr.png";
 import bookstore from "./image/bookstore.png";
 import portfolio from "./image/portfolio.png";
+import OnlineShopping from "./image/online-shopping.jpg";
 
 const Project = () => {
   const projects = [
     {
       id: 1,
+      src: OnlineShopping,
+      deployurl: "https://online-shopping-frontend.vercel.app/",
+      codeurl: "https://github.com/farooque-Git/online-shopping",
+    },
+    {
+      id: 2,
       src: portfolio,
       deployurl: "https://portfolio-main-virid-six.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       src: bookstore,
       deployurl: "https://book-store-chi-two.vercel.app/",
       codeurl: "https://github.com/farooque-Git/book-store",
     },
     {
-      id: 3,
+      id: 4,
       src: moviesearch,
       deployurl: "https://farooque-git.github.io/movie-detail/",
       codeurl: "https://github.com/farooque-Git/movie-detail",
     },
     {
-      id: 4,
+      id: 5,
       src: finclvr,
       deployurl: "https://farooque-git.github.io/Finclvr/",
       codeurl: "https://github.com/farooque-Git/Finclvr",
     },
     {
-      id: 5,
+      id: 6,
       src: fooddelievery,
       deployurl: "https://farooque-git.github.io/food-delivery/",
       codeurl: "https://github.com/farooque-Git/food-delivery",
-    },
-    {
-      id: 6,
-      src: digitalclock,
-      deployurl: "https://farooque-git.github.io/digital_clock/",
-      codeurl: "https://github.com/farooque-Git/digital_clock",
     },
   ];
 
