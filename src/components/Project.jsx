@@ -6,11 +6,22 @@ import bookstore from "./image/bookstore.png";
 import portfolio from "./image/portfolio.png";
 import OnlineShopping from "./image/online-shopping.jpg";
 import youtube from "./image/youtube.jpg";
+import roleBaseAuth from "./image/role-based-auth.jpg";
+import tradeye from "./image/tradeye.jpg";
 
 const Project = () => {
   const projects = [
     {
       id: 1,
+      src: tradeye,
+      name: "TradEye -(Underway)",
+      description:
+        "Nextjs, Nodejs, ReactJs, firebase for auth User, MongoDb for database, Redux, RTK, Webpack, tailwind CSS",
+      deployurl: "",
+      codeurl: "",
+    },
+    {
+      id: 2,
       src: OnlineShopping,
       name: "E-commerce",
       description: "MERN Stack, Redux, RTK, Parcel, MUI",
@@ -18,7 +29,7 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/online-shopping",
     },
     {
-      id: 2,
+      id: 3,
       src: youtube,
       name: "Youtube",
       description:
@@ -27,14 +38,22 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/youtube",
     },
     {
-      id: 3,
+      id: 4,
       src: portfolio,
       name: "Portfolio",
       description: "Reactjs, Tailwind CSS",
       deployurl: "https://portfolio-main-virid-six.vercel.app/",
     },
     {
-      id: 4,
+      id: 5,
+      src: roleBaseAuth,
+      name: "Role Based Authentication",
+      description: "React.Js, Context API,Firebase, Webpack, tailwind CSS",
+      deployurl: "https://role-based-authentication-mu.vercel.app/",
+      codeurl: "https://github.com/farooque-Git/role-based-authentication",
+    },
+    {
+      id: 6,
       src: bookstore,
       name: "Book Store",
       description: "JavaScript, HTML, scss, Google API",
@@ -42,7 +61,7 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/book-store",
     },
     {
-      id: 5,
+      id: 7,
       src: moviesearch,
       name: "Search Movie ",
       description: "JavaScript, HTML, css, Google API",
@@ -50,7 +69,7 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/movie-detail",
     },
     {
-      id: 6,
+      id: 8,
       src: finclvr,
       name: "Fin Clvr",
       description: "JavaScript, scss",
@@ -58,7 +77,7 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/Finclvr",
     },
     {
-      id: 7,
+      id: 9,
       src: fooddelievery,
       name: "Food Delivery",
       description: "JavaScript, scss",
@@ -99,12 +118,12 @@ const Project = () => {
                   className="rounded-md duration-200 hover:scale-105"
                 />
                 <div className="mt-3 pr-2">
-                  <p className="pl-7 text-blue-300 text-base font-semibold">
-                    {name}
+                  <p className="px-10 text-blue-300 text-base font-semibold ">
+                    - {name} -
                   </p>
 
                   <p className="pl-5 ">
-                    <span className="text-indigo-200 font-medium">
+                    <span className="text-indigo-300 font-medium">
                       Tech use:{" "}
                     </span>
                     <span className="font-thin">{description}</span>

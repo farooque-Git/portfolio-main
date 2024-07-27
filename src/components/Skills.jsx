@@ -8,6 +8,8 @@ import giticon from "./image/github-icon-9.png";
 import redux from "./image/redux.webp";
 import mui from "./image/mui.png";
 import webpack from "./image/webpack.webp";
+import nextjs from "./image/nextjs.png";
+import firebase from "./image/firebase.png";
 
 const Skills = () => {
   const icons = [
@@ -32,38 +34,50 @@ const Skills = () => {
     {
       id: 4,
       src: reacticon,
-      title: "React",
+      title: "ReactJs",
       style: "shadow-blue-600",
     },
     {
       id: 5,
+      src: nextjs,
+      title: "NextJs",
+      style: "shadow-white",
+    },
+    {
+      id: 6,
       src: tailwindicon,
       title: "Tailwind CSS",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 7,
       src: giticon,
       title: "GitHub",
       style: "shadow-white",
     },
     {
-      id: 7,
+      id: 8,
       src: redux,
       title: "Redux",
       style: "shadow-purple-400",
     },
     {
-      id: 8,
+      id: 9,
       src: mui,
       title: "Material UI",
       style: "shadow-blue-400",
     },
     {
-      id: 9,
+      id: 10,
       src: webpack,
       title: "Webpack",
       style: "shadow-blue-300",
+    },
+    {
+      id: 11,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-orange-400",
     },
   ];
 

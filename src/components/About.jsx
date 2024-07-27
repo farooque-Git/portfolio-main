@@ -10,7 +10,7 @@ const About = () => {
             About
           </p>
           <p className="pt-8">
-            2.5+ years experienced React Developer building website and web
+            3+ years experienced React Developer building website and web
             application using React JS and modern JavaScript tools/framework
             with hands-on experience in identifying web based user interaction
             along with designing & implementing highly responsive user interface
