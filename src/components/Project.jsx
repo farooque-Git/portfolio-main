@@ -13,7 +13,7 @@ const Project = () => {
       id: 1,
       src: OnlineShopping,
       name: "E-commerce",
-      description: "MERN Stack with MUI",
+      description: "MERN Stack, Redux, RTK, Parcel, MUI",
       deployurl: "https://online-shopping-frontend.vercel.app/",
       codeurl: "https://github.com/farooque-Git/online-shopping",
     },
@@ -21,7 +21,8 @@ const Project = () => {
       id: 2,
       src: youtube,
       name: "Youtube",
-      description: "Reactjs, Tailwind CSS, Google Api",
+      description:
+        "Reactjs, Redux Toolkit, Webpack,Bundler,  Tailwind CSS, Google Api",
       deployurl: "https://youtube-pearl-delta.vercel.app/",
       codeurl: "https://github.com/farooque-Git/youtube",
     },
@@ -97,12 +98,17 @@ const Project = () => {
                   alt=""
                   className="rounded-md duration-200 hover:scale-105"
                 />
-                <div className="mt-3">
-                  <p className="pl-7 text-blue-300 text-xl font-semibold">
+                <div className="mt-3 pr-2">
+                  <p className="pl-7 text-blue-300 text-base font-semibold">
                     {name}
                   </p>
 
-                  <p className="pl-5 ">Language use: {description}</p>
+                  <p className="pl-5 ">
+                    <span className="text-indigo-200 font-medium">
+                      Tech use:{" "}
+                    </span>
+                    <span className="font-thin">{description}</span>
+                  </p>
                 </div>
                 <div className="flex items-center justify-center">
                   <button

@@ -17,7 +17,7 @@ const Home = () => {
             Full Stack Developer
           </h1>
           <p className="text-gray-400 py-5">
-            2.5+ years experienced React building website and web application
+            3+ years experienced React building website and web application
             using React JS and modern JavaScript tools/framework with hands-on
             experience in identifying web based user interaction along with
             designing & implementing highly responsive user interface component
