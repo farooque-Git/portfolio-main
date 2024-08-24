@@ -16,7 +16,7 @@ const Project = () => {
       src: tradeye,
       name: "TradEye -(Underway)",
       description:
-        "Nextjs, Nodejs, ReactJs, firebase for auth User, MongoDb for database, Redux, RTK, Webpack, tailwind CSS",
+        "Nodejs, ReactJs, firebase for auth User, MongoDb for database, Redux, RTK, Webpack, Tailwind CSS",
       deployurl: "",
       codeurl: "",
     },

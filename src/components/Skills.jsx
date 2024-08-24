@@ -10,6 +10,9 @@ import mui from "./image/mui.png";
 import webpack from "./image/webpack.webp";
 import nextjs from "./image/nextjs.png";
 import firebase from "./image/firebase.png";
+import mongoDB from "./image/mongodb.png";
+import nodejs from "./image/nodejs.png";
+import expressjs from "./image/expressjs.png";
 
 const Skills = () => {
   const icons = [
@@ -78,6 +81,24 @@ const Skills = () => {
       src: firebase,
       title: "Firebase",
       style: "shadow-orange-400",
+    },
+    {
+      id: 12,
+      src: mongoDB,
+      title: "MongoDB",
+      style: "shadow-green-600",
+    },
+    {
+      id: 13,
+      src: nodejs,
+      title: "Nodejs",
+      style: "shadow-green-800",
+    },
+    {
+      id: 14,
+      src: expressjs,
+      title: "ExpressJS",
+      style: "shadow-yellow-500",
     },
   ];
 
