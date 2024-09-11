@@ -1,4 +1,5 @@
 import shakeel from "./image/shakeel.jpeg";
+import client2 from "./image/client2.jpeg"
 
 const Client = () => {
   const clients = [
@@ -10,6 +11,15 @@ const Client = () => {
       companyName: "MSA Trader",
       message:
         "Thank you for delivering the project! The app looks great and functions smoothly. Your attention to detail and timely delivery exceeded our expectations. We're excited to launch and see it in action. Great job, and we appreciate your hard work!",
+    },
+    {
+      id: 2,
+      src: client2,
+      name: "Mr. Ejaz Ahmed",
+      designation: "Co-Founder",
+      companyName: "Monex Battery",
+      message:
+        "I wanted to express my gratitude for completing the project! The app looks amazing and operates flawlessly. Your meticulous attention to detail and the prompt delivery have gone above and beyond what we anticipated. We’re excited to roll it out and see it in action. Your dedication and hard work are truly appreciated! Looking forward to collaborating on future endeavors!",
     },
   ];
 
