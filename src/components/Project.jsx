@@ -42,7 +42,7 @@ const Project = () => {
       id: 4,
       src: compiler,
       name: "Code-Compiler & DSA",
-      description: "Reactjs, RTK, Webpack, Firebase for auth, CSS",
+      description: "Reactjs, RTK, Webpack, Firebase for auth, CSS3",
       deployurl: "https://codecompiler-dsa.vercel.app/",
       codeurl:
         "https://github.com/farooque-Git/codecompiler-DSA",
