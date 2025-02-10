@@ -1,4 +1,3 @@
-import digitalclock from "./image/digitalclock.png";
 import moviesearch from "./image/moviesearch.png";
 import fooddelievery from "./image/fooddelievery.png";
 import finclvr from "./image/finclvr.png";
@@ -9,20 +8,38 @@ import youtube from "./image/youtube.jpg";
 import roleBaseAuth from "./image/role-based-auth.jpg";
 import tradeye from "./image/tradeye.jpg";
 import compiler from "./image/code-compiler.jpg";
+import gameapp from "./image/gameapp.jpg";
+import tradeglobal from "./image/tradeglobal.jpg";
 
 const Project = () => {
   const projects = [
     {
       id: 1,
+      src: gameapp,
+      name: "Arcade-Game",
+      description: " ReactJs, Webpack, Tailwind CSS",
+      deployurl: "",
+      codeurl: "https://github.com/farooque-Git/arcade-game",
+    },
+    {
+      id: 5,
+      src: tradeglobal,
+      name: "TradeGlobal-CentrioGlobal",
+      description: " ReactJs, Webpack, Tailwind CSS, Firebase for Auth",
+      deployurl: "https://tradeglobal.vercel.app/",
+      codeurl: "https://github.com/farooque-Git/tradeglobal",
+    },
+
+    {
+      id: 6,
       src: tradeye,
       name: "TradEye -(Underway)",
-      description:
-        "Nodejs, ReactJs, firebase for auth User, MongoDb for database, Redux, RTK, Webpack, Tailwind CSS",
+      description: "MERN, firebase, , Redux, RTK, Webpack, Tailwind CSS",
       deployurl: "",
       codeurl: "",
     },
     {
-      id: 2,
+      id: 7,
       src: OnlineShopping,
       name: "E-commerce",
       description: "MERN Stack, Redux, RTK, Parcel, MUI",
@@ -30,7 +47,7 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/online-shopping",
     },
     {
-      id: 3,
+      id: 8,
       src: youtube,
       name: "Youtube",
       description:
@@ -39,23 +56,22 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/youtube",
     },
     {
-      id: 4,
+      id: 9,
       src: compiler,
       name: "Code-Compiler & DSA",
       description: "Reactjs, RTK, Webpack, Firebase for auth, CSS3",
       deployurl: "https://codecompiler-dsa.vercel.app/",
-      codeurl:
-        "https://github.com/farooque-Git/codecompiler-DSA",
+      codeurl: "https://github.com/farooque-Git/codecompiler-DSA",
     },
     {
-      id: 5,
+      id: 10,
       src: portfolio,
       name: "Portfolio",
       description: "Reactjs, Tailwind CSS",
       deployurl: "https://portfolio-main-virid-six.vercel.app/",
     },
     {
-      id: 6,
+      id: 11,
       src: roleBaseAuth,
       name: "Role Based Authentication",
       description: "React.Js, Context API,Firebase, Webpack, tailwind CSS",
@@ -63,7 +79,7 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/role-based-authentication",
     },
     {
-      id: 7,
+      id: 12,
       src: bookstore,
       name: "Book Store",
       description: "JavaScript, HTML, scss, Google API",
@@ -71,7 +87,7 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/book-store",
     },
     {
-      id: 8,
+      id: 13,
       src: moviesearch,
       name: "Search Movie ",
       description: "JavaScript, HTML, css, Google API",
@@ -79,7 +95,7 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/movie-detail",
     },
     {
-      id: 9,
+      id: 14,
       src: finclvr,
       name: "Fin Clvr",
       description: "JavaScript, scss",
@@ -87,7 +103,7 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/Finclvr",
     },
     {
-      id: 10,
+      id: 15,
       src: fooddelievery,
       name: "Food Delivery",
       description: "JavaScript, scss",
