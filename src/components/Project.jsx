@@ -17,6 +17,14 @@ import { FaEye, FaCode } from "react-icons/fa";
 const Project = () => {
   const projects = [
     {
+      id: 0,
+      src: movieapp,
+      name: "Optimum Cinema",
+      description: " ReactJs, Vite, Tailwind CSS",
+      deployurl: "https://movie-app-beta-umber.vercel.app/",
+      codeurl: "https://github.com/farooque-Git/movie-app",
+    },
+    {
       id: 1,
       src: gameapp,
       name: "Arcade-Game",
