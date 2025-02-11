@@ -19,7 +19,7 @@ const Project = () => {
       src: gameapp,
       name: "Arcade-Game",
       description: " ReactJs, Vite, Tailwind CSS",
-      deployurl: "",
+      deployurl: "https://arcade-game-ten.vercel.app/",
       codeurl: "https://github.com/farooque-Git/arcade-game",
     },
     {
