@@ -11,6 +11,7 @@ import tradeglobal from "./image/tradeglobal.jpg";
 import meetup from "./image/meetup.jpg";
 import hospitalapp from "./image/hospitalapp.jpg";
 import hotelapp from "./image/hotelapp.jpg";
+import movieapp from "./image/movieapp.jpg";
 
 import { FaEye, FaCode } from "react-icons/fa";
 
