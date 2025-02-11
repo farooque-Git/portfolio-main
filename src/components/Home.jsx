@@ -5,25 +5,22 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen sm:pt-96 w-full bg-gradient-to-b from-black via-black scroll-mt-16 to-gray-800 "
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 sm:pt-28"
     >
-      <div
-        className="max-w-screen-lg mx-auto flex flex-col
-      items-center justify-center h-full px-4 md:flex-row"
-      >
-        <div className="flex flex-col justify-center h-full">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+        <div className="flex flex-col justify-center h-full text-center md:text-left">
           <h1 className="text-4xl sm:text-6xl font-bold text-white">
             Hi, <a className="text-yellow-600"> Farooque Ali</a> here & I'm a
             Full Stack Developer
           </h1>
-          <p className="text-gray-400 py-5">
-            3+ years experienced React building website and web application
-            using React JS and modern JavaScript tools/framework with hands-on
-            experience in identifying web based user interaction along with
-            designing & implementing highly responsive user interface component
-            by deploying React concept.
+          <p className="text-gray-400 py-5 text-sm sm:text-base">
+            3+ years experienced React building websites and web applications
+            using React JS and modern JavaScript tools/frameworks with hands-on
+            experience in identifying web-based user interaction along with
+            designing & implementing highly responsive user interface components
+            by deploying React concepts.
           </p>
-          <div>
+          <div className="flex justify-center md:justify-start">
             <button
               onClick={() => window.open("/Farooque_Resume.pdf")}
               target="_blank"
@@ -36,15 +33,16 @@ const Home = () => {
             </button>
           </div>
         </div>
-        <div>
+        <div className="flex justify-center md:ml-8 mt-6 md:mt-0">
           <img
             src={about}
             alt="my profile"
-            className=" sm:mx-auto md:ml-8 mx-auto w-2/3 md:w-full mb-6 shadow-md shadow-slate-200"
+            className="w-2/3 sm:w-1/2 md:w-full mb-6 shadow-md shadow-slate-200"
           />
         </div>
       </div>
     </div>
   );
 };
+
 export default Home;
