@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen sm:pt-12 w-full bg-gradient-to-b from-black via-black to-gray-800 "
+      className="h-screen sm:pt-20 w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
       <div
         className="max-w-screen-lg mx-auto flex flex-col 
@@ -13,7 +13,7 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full">
           <h1 className="text-4xl sm:text-6xl font-bold text-white">
-            Hi, <a className="text-yellow-500"> Farooque Ali</a> here & I'm a
+            Hi, <a className="text-yellow-600"> Farooque Ali</a> here & I'm a
             Full Stack Developer
           </h1>
           <p className="text-gray-400 py-5">
