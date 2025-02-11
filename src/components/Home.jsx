@@ -9,12 +9,12 @@ const Home = () => {
     >
       <div className="max-w-screen-lg w-2/3 mx-auto flex flex-col pt-10 md:flex-row items-center justify-center h-full px-4 sm:px-6">
         {/* Left Content */}
-        <div className="flex flex-col  md:text-left h-full pt-5">
-          <h1 className="text-3xl sm:text-5xl font-bold text-white  ">
+        <div className="flex flex-col md:text-left sm:text-center h-full  pt-5">
+          <h1 className="text-3xl sm:text-6xl font-bold text-white  ">
             Hi, <span className="text-yellow-600">Farooque Ali</span> here & I'm
             a Full Stack Developer
           </h1>
-          <p className="text-gray-400 py-4 sm:py-5 text-sm sm:text-base text-left">
+          <p className="text-gray-400 py-4 sm:py-5 text-sm sm:text-base ">
             3+ years experienced in building websites and web applications using
             React JS and modern JavaScript tools/frameworks. Hands-on experience
             in designing & implementing highly responsive UI components by

@@ -141,7 +141,7 @@ const Project = () => {
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md duration-200 hover:scale-105"
+                  className="rounded-md duration-200 hover:scale-110"
                 />
                 <div className="mt-3 pr-2">
                   <p className="px-10 text-blue-300 text-base font-semibold ">
