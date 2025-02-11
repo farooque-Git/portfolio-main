@@ -1,5 +1,5 @@
 import shakeel from "./image/shakeel.jpeg";
-import client2 from "./image/client2.jpeg"
+import client2 from "./image/client2.jpeg";
 
 const Client = () => {
   const clients = [
@@ -32,7 +32,7 @@ const Client = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center items-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-yellow-500">
+          <p className="text-4xl font-bold inline border-b-2 border-yellow-500">
             My Happy Client !!!
           </p>
         </div>

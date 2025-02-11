@@ -114,7 +114,7 @@ const Project = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-6">
         <div className="pb-8 mt-10">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-2 border-yellow-500">
             My Masterpiece Collections
           </p>
           <p className="py-6">
