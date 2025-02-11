@@ -2,14 +2,15 @@ import moviesearch from "./image/moviesearch.png";
 import fooddelievery from "./image/fooddelievery.png";
 import finclvr from "./image/finclvr.png";
 import bookstore from "./image/bookstore.png";
-import portfolio from "./image/portfolio.png";
+
 import OnlineShopping from "./image/online-shopping.jpg";
 import youtube from "./image/youtube.jpg";
-import roleBaseAuth from "./image/role-based-auth.jpg";
+
 import tradeye from "./image/tradeye.jpg";
 import compiler from "./image/code-compiler.jpg";
 import gameapp from "./image/gameapp.jpg";
 import tradeglobal from "./image/tradeglobal.jpg";
+import { FaEye } from "react-icons/fa";
 
 const Project = () => {
   const projects = [
@@ -24,7 +25,7 @@ const Project = () => {
     {
       id: 5,
       src: tradeglobal,
-      name: "TradeGlobal-CentrioGlobal",
+      name: "CentrioGlobal",
       description: " ReactJs, Webpack, Tailwind CSS, Firebase for Auth",
       deployurl: "https://tradeglobal.vercel.app/",
       codeurl: "https://github.com/farooque-Git/tradeglobal",
@@ -63,21 +64,7 @@ const Project = () => {
       deployurl: "https://codecompiler-dsa.vercel.app/",
       codeurl: "https://github.com/farooque-Git/codecompiler-DSA",
     },
-    {
-      id: 10,
-      src: portfolio,
-      name: "Portfolio",
-      description: "Reactjs, Tailwind CSS",
-      deployurl: "https://portfolio-main-virid-six.vercel.app/",
-    },
-    {
-      id: 11,
-      src: roleBaseAuth,
-      name: "Role Based Authentication",
-      description: "React.Js, Context API,Firebase, Webpack, tailwind CSS",
-      deployurl: "https://role-based-authentication-mu.vercel.app/",
-      codeurl: "https://github.com/farooque-Git/role-based-authentication",
-    },
+
     {
       id: 12,
       src: bookstore,
@@ -126,12 +113,18 @@ const Project = () => {
       className="bg-gradient-to-b from-black to-gray-800 w-full
      text-white"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-6">
+        <div className="pb-8 mt-10">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Project
+            My Masterpiece Collections
           </p>
-          <p className="py-6">Check out some of my work right here</p>
+          <p className="py-6">
+            I specialize in developing custom web and mobile applications that
+            cater to diverse business needs, from e-commerce platforms to data
+            visualization dashboards, using the latest technologies and agile
+            methodologies to deliver exceptional user experiences and measurable
+            business outcomes.
+          </p>
         </div>
 
         <div className=" grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
@@ -160,7 +153,7 @@ const Project = () => {
                     className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
                     onClick={() => handleVisitClick(deployurl)}
                   >
-                    Visit
+                    <FaEye />
                   </button>
                   <button
                     className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"

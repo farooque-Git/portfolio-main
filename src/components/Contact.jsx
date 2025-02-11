@@ -1,3 +1,7 @@
+
+
+
+
 const Contact = () => {
   return (
     <div
@@ -9,7 +13,12 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-          <p className="p-6">Submit the form below to get in touch with me</p>
+          <p className="p-6">
+            If you're looking for a skilled frontend developer to help bring
+            your Web and Mobile application ideas to life, feel free to contact
+            me. Let's discuss how I can contribute to your team and deliver
+            top-notch results.
+          </p>
         </div>
         <div className="flex justify-center items-center">
           <form
@@ -22,18 +31,25 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 my-4 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Enter your WhatsApp or Contact Number"
+              className="p-2 my-4  bg-transparent border-2 rounded-md text-white focus:outline-none"
+            />
+
             <textarea
               name="message"
               placeholder="Enter your message"
-              rows="10"
+              rows="8"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             ></textarea>
             <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">

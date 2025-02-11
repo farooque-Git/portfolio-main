@@ -13,7 +13,7 @@ const Home = () => {
       >
         <div className="flex flex-col justify-center h-full">
           <h1 className="text-4xl sm:text-6xl font-bold text-white">
-            Hi,<a className="text-yellow-500"> Farooque Ali</a> here & I'm a
+            Hi, <a className="text-yellow-500"> Farooque Ali</a> here & I'm a
             Full Stack Developer
           </h1>
           <p className="text-gray-400 py-5">
@@ -25,7 +25,7 @@ const Home = () => {
           </p>
           <div>
             <button
-              onClick={() => window.open("/resume.pdf")}
+              onClick={() => window.open("/Farooque_Resume.pdf")}
               target="_blank"
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
             >
@@ -40,7 +40,7 @@ const Home = () => {
           <img
             src={about}
             alt="my profile"
-            className="pl-5 mx-auto w-2/3 md:w-full"
+            className=" ml-8  mx-auto w-2/3 md:w-full mb-6 shadow-md shadow-slate-200"
           />
         </div>
       </div>
