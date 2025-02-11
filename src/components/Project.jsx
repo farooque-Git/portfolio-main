@@ -2,14 +2,14 @@ import moviesearch from "./image/moviesearch.png";
 import fooddelievery from "./image/fooddelievery.png";
 import finclvr from "./image/finclvr.png";
 import bookstore from "./image/bookstore.png";
-
 import OnlineShopping from "./image/online-shopping.jpg";
 import youtube from "./image/youtube.jpg";
-
 import tradeye from "./image/tradeye.jpg";
 import compiler from "./image/code-compiler.jpg";
 import gameapp from "./image/gameapp.jpg";
 import tradeglobal from "./image/tradeglobal.jpg";
+import meetup from "./image/meetup.jpg";
+
 import { FaEye, FaCode } from "react-icons/fa";
 
 const Project = () => {
@@ -18,9 +18,17 @@ const Project = () => {
       id: 1,
       src: gameapp,
       name: "Arcade-Game",
-      description: " ReactJs, Webpack, Tailwind CSS",
+      description: " ReactJs, Vite, Tailwind CSS",
       deployurl: "",
       codeurl: "https://github.com/farooque-Git/arcade-game",
+    },
+    {
+      id: 2,
+      src: meetup,
+      name: "MeetUp-Like Zoom",
+      description: " NextJs, socket.io, Tailwind CSS",
+      deployurl: "https://meet-up-theta.vercel.app/",
+      codeurl: "https://github.com/farooque-Git/meet-up",
     },
     {
       id: 5,
