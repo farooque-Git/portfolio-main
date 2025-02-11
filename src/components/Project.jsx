@@ -9,6 +9,8 @@ import compiler from "./image/code-compiler.jpg";
 import gameapp from "./image/gameapp.jpg";
 import tradeglobal from "./image/tradeglobal.jpg";
 import meetup from "./image/meetup.jpg";
+import hospitalapp from "./image/hospitalapp.jpg";
+import hotelapp from "./image/hotelapp.jpg";
 
 import { FaEye, FaCode } from "react-icons/fa";
 
@@ -31,14 +33,30 @@ const Project = () => {
       codeurl: "https://github.com/farooque-Git/meet-up",
     },
     {
-      id: 5,
+      id: 4,
       src: tradeglobal,
       name: "CentrioGlobal",
       description: " ReactJs, Webpack, Tailwind CSS, Firebase for Auth",
       deployurl: "https://tradeglobal.vercel.app/",
       codeurl: "https://github.com/farooque-Git/tradeglobal",
     },
+    {
+      id: 5,
+      src: hospitalapp,
+      name: "Hope Hospital",
+      description: " React, TypeScript,  Vite, Tailwind CSS",
+      deployurl: "https://hospital-app-mu.vercel.app/",
+      codeurl: "https://github.com/farooque-Git/hospital-app",
+    },
 
+    {
+      id: 5,
+      src: hotelapp,
+      name: "The Continental",
+      description: " ReactJs, Vite, CSS",
+      deployurl: "https://hotel-app-eight-omega.vercel.app/",
+      codeurl: "https://github.com/farooque-Git/hotel-app",
+    },
     {
       id: 6,
       src: tradeye,
