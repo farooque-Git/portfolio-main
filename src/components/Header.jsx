@@ -33,9 +33,9 @@ const Header = () => {
   ];
 
   return (
-    <div className="flex bg-black justify-between items-center w-full h-16 px-4 fixed z-50">
+    <div className="flex bg-black justify-between items-center w-full h-14 px-4 fixed">
       <div>
-        <h1 className=" pt-5 sm:pl-[-10] text-yellow-700 hover:text-yellow-100 font-caveat ml-10 p-2 font-bold text-5xl">
+        <h1 className=" pt-5 text-yellow-700 hover:text-yellow-100 font-caveat ml-10 p-2  text-5xl">
           Portfolio
         </h1>
       </div>
