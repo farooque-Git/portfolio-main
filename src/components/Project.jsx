@@ -10,7 +10,7 @@ import tradeye from "./image/tradeye.jpg";
 import compiler from "./image/code-compiler.jpg";
 import gameapp from "./image/gameapp.jpg";
 import tradeglobal from "./image/tradeglobal.jpg";
-import { FaEye } from "react-icons/fa";
+import { FaEye, FaCode } from "react-icons/fa";
 
 const Project = () => {
   const projects = [
@@ -51,8 +51,7 @@ const Project = () => {
       id: 8,
       src: youtube,
       name: "Youtube",
-      description:
-        "Reactjs, Redux Toolkit, Webpack,Bundler,  Tailwind CSS, Google Api",
+      description: "Reactjs, RTK, Webpack, Tailwind CSS, Google Api",
       deployurl: "https://youtube-pearl-delta.vercel.app/",
       codeurl: "https://github.com/farooque-Git/youtube",
     },
@@ -148,18 +147,18 @@ const Project = () => {
                     <span className="font-thin">{description}</span>
                   </p>
                 </div>
-                <div className="flex items-center justify-center">
+                <div className="flex items-center text-3xl  justify-center">
                   <button
-                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                    className="w-1/2 px-16 text-3xl py-1 duration-200 text-yellow-500 hover:scale-150"
                     onClick={() => handleVisitClick(deployurl)}
                   >
                     <FaEye />
                   </button>
                   <button
-                    className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                    className="w-1/2 px-10 py-3 m-2 duration-200 text-[#e7665a] hover:scale-150"
                     onClick={() => handleCodeClick(codeurl)}
                   >
-                    Code
+                    <FaCode />
                   </button>
                 </div>
               </div>

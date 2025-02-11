@@ -40,7 +40,7 @@ const Home = () => {
           <img
             src={about}
             alt="my profile"
-            className=" ml-8  mx-auto w-2/3 md:w-full mb-6 shadow-md shadow-slate-200"
+            className=" sm:mx-auto md:ml-8 mx-auto w-2/3 md:w-full mb-6 shadow-md shadow-slate-200"
           />
         </div>
       </div>
