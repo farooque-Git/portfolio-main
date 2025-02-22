@@ -172,7 +172,7 @@ const Project = () => {
               key={tab}
               className={`px-4 py-2 sm:px-6 sm:py-2 rounded-md w-auto text-sm sm:text-base ${
                 activeTab === tab
-                  ? "bg-yellow-500 text-black"
+                  ? "bg-yellow-600 text-black"
                   : "bg-gray-700 text-white"
               }`}
               onClick={() => setActiveTab(tab)}
