@@ -166,11 +166,11 @@ const Project = () => {
         </div>
 
         {/* Tab Navigation */}
-        <div className="flex justify-center mb-6 space-x-6 font-bold">
+        <div className="flex flex-wrap justify-center mb-6 gap-3 sm:gap-6 font-bold">
           {["React", "Next.js", "MERN", "Native", "JavaScript"].map((tab) => (
             <button
               key={tab}
-              className={`px-6 py-2 rounded-md ${
+              className={`px-4 py-2 sm:px-6 sm:py-2 rounded-md w-auto text-sm sm:text-base ${
                 activeTab === tab
                   ? "bg-yellow-500 text-black"
                   : "bg-gray-700 text-white"
