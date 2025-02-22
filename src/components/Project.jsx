@@ -72,7 +72,7 @@ const projects = [
     description: "MERN, firebase, , Redux, RTK, Webpack, Tailwind CSS",
     deployurl: "",
     codeurl: "",
-    category: "React",
+    category: "MERN",
   },
   {
     id: 10,
@@ -109,7 +109,7 @@ const projects = [
     description: "MERN Stack, Redux, RTK, Parcel, MUI",
     deployurl: "https://online-shopping-frontend.vercel.app/",
     codeurl: "https://github.com/farooque-Git/online-shopping",
-    category: "React",
+    category: "MERN",
   },
   {
     id: 16,
@@ -166,8 +166,8 @@ const Project = () => {
         </div>
 
         {/* Tab Navigation */}
-        <div className="flex justify-center mb-6 space-x-6">
-          {["React", "Next.js", "Native", "JavaScript"].map((tab) => (
+        <div className="flex justify-center mb-6 space-x-6 font-bold">
+          {["React", "Next.js", "MERN", "Native", "JavaScript"].map((tab) => (
             <button
               key={tab}
               className={`px-6 py-2 rounded-md ${

@@ -8,11 +8,12 @@ import giticon from "./image/github-icon-9.png";
 import redux from "./image/redux.webp";
 import mui from "./image/mui.png";
 import webpack from "./image/webpack.webp";
-import nextjs from "./image/nextjs.png";
+// import nextjs from "./image/nextjs.png";
 import firebase from "./image/firebase.png";
 import mongoDB from "./image/mongodb.png";
 import nodejs from "./image/nodejs.png";
 import expressjs from "./image/expressjs.png";
+import nextjs1 from "./image/nextjs1.png";
 
 const Skills = () => {
   const icons = [
@@ -42,7 +43,7 @@ const Skills = () => {
     },
     {
       id: 5,
-      src: nextjs,
+      src: nextjs1,
       title: "NextJs",
       style: "shadow-white",
     },
