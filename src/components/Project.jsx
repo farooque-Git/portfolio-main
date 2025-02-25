@@ -45,7 +45,15 @@ const projects = [
     codeurl: "https://github.com/farooque-Git/meet-up",
     category: "Next.js",
   },
-
+  {
+    id: 4,
+    src: travel - tour,
+    name: "Travels-Tour",
+    description: "Reactjs, vite, Tailwind CSS",
+    deployurl: "https://travels-tour.vercel.app//",
+    codeurl: "https://github.com/farooque-Git/travels-tourp",
+    category: "React",
+  },
   {
     id: 7,
     src: hospitalapp,
