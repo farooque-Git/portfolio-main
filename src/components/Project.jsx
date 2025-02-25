@@ -12,6 +12,7 @@ import meetup from "./image/meetup.jpg";
 import hospitalapp from "./image/hospitalapp.jpg";
 import hotelapp from "./image/hotelapp.jpg";
 import movieapp from "./image/movieapp.jpg";
+import traveltour from "./image/travel-tour.jpg";
 
 import { FaEye, FaCode } from "react-icons/fa";
 import { useState } from "react";
@@ -47,7 +48,7 @@ const projects = [
   },
   {
     id: 4,
-    src: travel - tour,
+    src: traveltour,
     name: "Travels-Tour",
     description: "Reactjs, vite, Tailwind CSS",
     deployurl: "https://travels-tour.vercel.app//",
