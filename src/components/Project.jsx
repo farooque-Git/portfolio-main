@@ -13,6 +13,8 @@ import hospitalapp from "./image/hospitalapp.jpg";
 import hotelapp from "./image/hotelapp.jpg";
 import movieapp from "./image/movieapp.jpg";
 import traveltour from "./image/travel-tour.jpg";
+import snippetdev from "./image/snippet-dev.jpg";
+import crypto from "./image/5ksana.jpg";
 
 import { FaEye, FaCode } from "react-icons/fa";
 import { useState } from "react";
@@ -52,9 +54,27 @@ const projects = [
     name: "Travels-Tour",
     description: "Reactjs, vite, Tailwind CSS",
     deployurl: "https://travels-tour.vercel.app//",
-    codeurl: "https://github.com/farooque-Git/travels-tourp",
+    codeurl: "https://github.com/farooque-Git/travels-tour",
     category: "React",
   },
+  {
+    id: 5,
+    src: snippetdev,
+    name: "Snippet Dev",
+    description: "Next.js, Tailwind CSS",
+    deployurl: "https://snippet-dev.vercel.app/",
+    codeurl: "https://github.com/farooque-Git/snippet-dev",
+    category: "Next.js",
+  },
+  // {
+  //   id: 6,
+  //   src: crypto,
+  //   name: "5KSANA",
+  //   description: "React.js, Vite, Tailwind CSS",
+  //   deployurl: "https://travels-tour.vercel.app//",
+  //   codeurl: "https://github.com/farooque-Git/5ksana",
+  //   category: "Next.js",
+  // },
   {
     id: 7,
     src: hospitalapp,
